@@ -82,7 +82,8 @@ h2{
  font-family: monospace;
  padding: 0;
   margin: 0;
-  text-shadow: 3px 0px 1px black;
+  text-shadow: 7px 0px 1px black;
+  text-decoration-line: line-through;
 
 }
 
@@ -134,7 +135,8 @@ flex: 0;
 margin-top: 10px;
 border-radius: 8px;
 padding-bottom: 20px;
-
+border-radius: 8px;
+border: 2px solid black;
     
   }
   
@@ -240,9 +242,9 @@ align-items: center;
 }
 
 .menu-footer{
-padding-right: 80px;
+padding: 10px;
   display: flex;
-  gap: 60px;
+  gap: 30px;
   list-style: none;
   color: black;
 
@@ -250,22 +252,41 @@ padding-right: 80px;
 .text-container{
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
-  justify-content: center;
-  text-align: justify;
-  width: 400px;
+  align-items: center;
+  justify-content: space-around;
+  text-align: center;
+  width: 375px;
 }
 h4{
   font-size: 36px;
   font-weight: 900;
-  text-align: left;
+  text-align: center;
  font-family: monospace;
  padding: 0;
   margin: 0;
-  text-shadow: 3px 0px 1px black;
+  text-shadow: 5px 0px 1px black;
+  text-decoration-line: line-through;
 }
 
 p{
   padding: 0;
   margin: 0;
+}
+.icon-container{
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: black;
+  font-size: 18px;
+}
+
+
+.icon-footer{
+
+flex: 0;
+  width: 50px;
+
 }
